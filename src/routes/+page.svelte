@@ -8,7 +8,11 @@
   // Helper to safely load from localStorage
   function load<T>(key: string, fallback: T): T {
     const saved = localStorage.getItem(key);
-    return saved ? JSON.parse(saved) : fallback;
+    try {
+      return saved ? JSON.parse(saved) : fallback;
+    } catch {
+      return fallback;
+    }
   }
 
   interface Assignment {
