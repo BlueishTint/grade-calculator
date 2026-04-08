@@ -43,19 +43,16 @@
       label: name,
       assignments: [{ id: 1, name: 'Final Exam', weight: '100', grade: '', effort: 1 }],
       letterScale: [
-        { letter: 'A+', min: 97 },
-        { letter: 'A', min: 93 },
-        { letter: 'A-', min: 90 },
-        { letter: 'B+', min: 87 },
-        { letter: 'B', min: 83 },
-        { letter: 'B-', min: 80 },
-        { letter: 'C+', min: 77 },
-        { letter: 'C', min: 73 },
-        { letter: 'C-', min: 70 },
-        { letter: 'D+', min: 67 },
-        { letter: 'D', min: 63 },
-        { letter: 'D-', min: 60 },
-        { letter: 'F', min: 0 }
+        { letter: 'A+', min: 90 },
+        { letter: 'A', min: 85 },
+        { letter: 'A-', min: 80 },
+        { letter: 'B+', min: 76 },
+        { letter: 'B', min: 72 },
+        { letter: 'B-', min: 68 },
+        { letter: 'C+', min: 64 },
+        { letter: 'C', min: 60 },
+        { letter: 'C-', min: 5 },
+        { letter: 'D', min: 50 }
       ],
       desiredGrade: 90
     };
